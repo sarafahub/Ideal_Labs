@@ -34,4 +34,4 @@ jobs:
       - name: Installing surge
         run: npm install --global surge
       - name: deploying using surge
-        run: surge ./ ideallabs.surge.sh --token ${{ secrets.IDEAL_TOKEN }}
+        run: surge ./ ideallabs.surge.sh --token "3269c1e9a652c99959af753d0ecacf2e"
