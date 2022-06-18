@@ -34,6 +34,4 @@ jobs:
       - name: Installing surge
         run: npm install --global surge
       - name: deploying using surge
-        run: surge ./ ideallabs.surge.sh --token ${{secrets.IDEAL_TOKEN}}
-          echo Add other actions to build,
-          echo test, and deploy your project.
+        run: surge ./ ideallabs.surge.sh --token ${{ secrets.IDEAL_TOKEN }}
